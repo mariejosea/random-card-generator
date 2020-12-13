@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkgreen;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% auto;
+}
+.card {
+  background: white;
+  width: 300px;
+  height: 420px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.top-number {
+  display: flex;
+  align-items: flex-start;
+  font-size: 80px;
+  margin-left: 10px;
+}
+.middle-suit {
+  display: flex;
+  align-items: center;
+  font-size: 170px;
+  margin: auto;
+}
+.bottom-number {
+  display: flex;
+  font-size: 80px;
+  margin-right: 10px;
+  transform: rotate(-180deg);
+}
+.button {
+  margin-top: 50px;
+}
+h3 {
+  color: cornsilk;
+}
